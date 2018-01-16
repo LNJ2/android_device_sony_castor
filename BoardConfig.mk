@@ -15,6 +15,8 @@
 # inherit from the common shinano definitions
 include device/sony/castor_windy/BoardConfigCommon.mk
 
+TARGET_KERNEL_CONFIG := lineageos_shinano_castor_defconfig
+
 TARGET_SPECIFIC_HEADER_PATH += device/sony/castor/include
 
 # Assert
